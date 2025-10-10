@@ -11,5 +11,17 @@
 ## Prediction results maps
 * You can download the tested results map at Baidu Pan link [UNet](https://pan.baidu.com/s/13PGhua6ITlZIAfMie7RxDg)(Code:1234)
 
+## Citation
+```
+@ARTICLE{11175541,
+  author={Sun, Fuming and Han, Jinyu and Wu, Weiyi and Sun, Jing and Wang, Mengyin and Li, Haojie},
+  journal={IEEE Transactions on Multimedia}, 
+  title={A UNet-like Transformer Network for Camouflaged Object Detection}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-15},
+  doi={10.1109/TMM.2025.3613076}}
+```
 
 Feel free to send e-mails to me (1292724376@qq.com).
