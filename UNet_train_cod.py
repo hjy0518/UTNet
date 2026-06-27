@@ -6,7 +6,7 @@ import sys
 sys.path.append('./models')
 import numpy as np
 from datetime import datetime
-from models.UNet import UNet
+from UNet import UNet
 from torchvision.utils import make_grid
 from data_cod import get_loader, test_dataset
 from utils import clip_gradient, adjust_lr
