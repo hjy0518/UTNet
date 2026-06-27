@@ -7,7 +7,7 @@ sys.path.append('./models')
 import numpy as np
 import os, argparse
 import cv2
-from models.UNet import UNet
+from UNet import UNet
 from data_cod import test_dataset
 
 parser = argparse.ArgumentParser()
@@ -28,7 +28,7 @@ elif opt.gpu_id=='1':
 
 #load the model
 model = UNet()
-model.load_state_dict(torch.load('./PRNet_epoch_222.pth'))
+model.load_state_dict(torch.load('./'))
 model.cuda()
 model.eval()
 
